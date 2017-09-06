@@ -1,0 +1,36 @@
+@font-face {
+	src: url('../fonts/Abel-Regular.ttf');
+	font-family: abel;
+}
+
+@font-face {
+	src: url('../fonts/beyond_the_mountains.ttf');
+	font-family: beyondthemountains;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+#logo {
+	padding-right: 50vw;
+	padding-left: 5vw;
+	height: 100px;
+}
+
+
+.ui.secondary.pointing.menu {
+	border-bottom: none;
+	font-family: abel;
+	padding-top: 1em;
+}
+
+
+.ui.secondary.pointing.menu .active.item {
+	border-bottom: 2px solid red;
+}
+
+.item {
+	font-size: 16px;
+}

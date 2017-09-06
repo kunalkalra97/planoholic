@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="94px" viewBox="0 0 76 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>beenhere</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#BD2A2A" offset="0%"></stop>
+            <stop stop-color="#791C1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2" transform="translate(-1034.000000, -842.000000)" fill="url(#linearGradient-1)">
+            <g id="LT" transform="translate(751.000000, 798.000000)">
+                <g id="beenhere" transform="translate(283.000000, 44.000000)">
+                    <path d="M67.5555556,0 L8.44444444,0 C3.8,0 0,3.81570248 0,8.47933884 L0,63.1710744 C0,66.138843 1.26666667,68.6826446 3.8,70.3785124 L38,93.2727273 L72.2,70.3785124 C74.3111111,68.6826446 76,66.138843 76,63.1710744 L76,8.47933884 C76,3.81570248 72.2,0 67.5555556,0 L67.5555556,0 Z M29.5555556,63.5950413 L8.44444444,42.3966942 L14.3555556,36.461157 L29.5555556,51.7239669 L61.6444444,19.5024793 L67.5555556,25.4380165 L29.5555556,63.5950413 L29.5555556,63.5950413 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

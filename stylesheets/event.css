@@ -1,0 +1,94 @@
+@font-face {
+	src: url('../fonts/Abel-Regular.ttf');
+	font-family: abel;
+}
+
+@font-face {
+	src: url('../fonts/beyond_the_mountains.ttf');
+	font-family: beyondthemountains;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.imageWrapper {
+	background-image: url('../images/party_sample.jpg');
+	height: 60vh;
+	color: white;
+	text-align: center;
+	font-family: beyondthemountains;
+	line-height: 60vh;
+	font-size: 64px;
+}
+
+.cardWrapper {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+}
+
+div:first-child {
+	margin-right: 10%;
+}
+
+.card {
+	padding: 35px 0 0 0;
+	text-align: center;
+	border: 1px solid lightgray;
+	border-radius: 15px;
+}
+
+.card h1 {
+	margin: 1em 0 0 0;
+}
+
+.card h3 {
+	margin:0.5em 0 1em 0 ;
+}
+
+.card h1, .card h3 {
+	color: #BE2A2A;
+}
+
+.card ul {
+	list-style: none;
+	width: 35%;
+	margin: auto;
+	padding-left: 0;
+	text-align: left;
+}
+
+.card ul li {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.card img[src="../images/line.png"] {
+	margin-bottom: 10px;
+}
+
+.card img[src="../images/check-circle-outline.png"] {
+	margin-right: 20px;
+}
+
+
+.card img[src="../images/beenhere.png"], .card img[src="../images/group-add.png"] {
+	height: 50px;
+}
+
+.customButton {
+	width: 100%;
+	background-image: linear-gradient(-180deg, #BE2A2A 0%, #771B1B 100%);
+	border-radius: 0 0 15px 15px;
+	font-family: HelveticaNeue-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 2em;
+}

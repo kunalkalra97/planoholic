@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selected event detailed</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Kunal Kalra">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="keywords" content="">
+
+  	<link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="../stylesheets/semantic.min.css">
+  	<link rel="stylesheet" type="text/css" href="../stylesheets/navbar.css">
+  	<link rel="stylesheet" type="text/css" href="../stylesheets/selectedEventDetailed.css">
+</head>
+
+<body>
+
+	<div class="ui secondary pointing menu">
+
+		<a href="#"><img src="../images/logo.png" alt="Logo Comes Here" id="logo"></a>
+
+			<a class="item" href="#">About us</a>
+			<a class="item active" href="#">Services</a>
+			<a class="item" href="#">Features</a>
+			<a class="item" href="#">Gallery</a>
+			<a class="item" href="#">Blog</a>
+			<a class="item" href="#">Sign Up</a>
+
+	</div>
+
+	<div class="container-fluid eventAndAccount-details">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1>Booking ID: 1310</h1>
+				<h3 id="username">by Ansh Mehra</h3>				
+			</div>
+			<div class="col-sm-4">
+				<p>Event Chosen: <span>Birthday Party</span></p>
+			</div>
+			<div class="col-sm-4">
+				<button class="ui button">My Cart <img src="../images/shopping-cart.png"></button>
+			</div>
+		</div>
+	</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+
+  		<div class="col-sm-3">
+  			
+  			<button class="ui button custom">Go Back</button><br>
+  			<button class="ui button custom">Skip</button><br>
+
+  			<div class="ui input">
+  				<input type="text" placeholder="Filter">
+			</div><br>
+
+			<label id="priceRange">Price Range</label>
+			<input type="range" min="0" max="100" value="0" name="priceRange">
+		
+
+			<div class="ui vertical accordion menu">
+			  <div class="item">
+			    <a class="title">
+			      <i class="dropdown icon"></i>
+			      Sorting Options
+			    </a>
+			    <div class="content">
+			      <div class="ui form">
+			        <div class="grouped fields">
+			          <div class="field">
+			            <div class="ui radio checkbox">
+			              <input type="radio" name="size" value="small">
+			              <label>Option 1</label>
+			            </div>
+			          </div>
+			          <div class="field">
+			            <div class="ui radio checkbox">
+			              <input type="radio" name="size" value="medium">
+			              <label>Option 2</label>
+			            </div>
+			          </div>
+			          <div class="field">
+			            <div class="ui radio checkbox">
+			              <input type="radio" name="size" value="large">
+			              <label>Option 3</label>
+			            </div>
+			          </div>
+			          <div class="field">
+			            <div class="ui radio checkbox">
+			              <input type="radio" name="size" value="x-large">
+			              <label>Option 4</label>
+			            </div>
+			          </div>
+			          <div class="field">
+			            <div class="ui radio checkbox">
+			              <input type="radio" name="size" value="x-large">
+			              <label>Option 5</label>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  </div>
+							      
+
+		<div class="ui toggle checkbox">
+		  <input type="checkbox" name="public">
+		  <label>Filter 1</label>
+		</div><br>
+
+
+		<div class="ui toggle checkbox">
+		  <input type="checkbox" name="public">
+		  <label>Filter 2</label>
+		</div>
+
+  		</div>
+
+  		<div class="col-sm-9">
+  			<div class="ui nine item stackable tabular menu">
+  			  <a data-tab="Venue" class="item active">
+  			    Venue
+  			  </a>
+  			  <a data-tab="Decor" class="item">
+  			    Decor
+  			  </a>
+  			  <a data-tab="Extras" class="item">
+  			    Extras
+  			  </a>
+  			  <a data-tab="Food" class="item">
+  			    Food
+  			  </a>
+  			  <a data-tab="Logistics" class="item">
+  			    Logistics
+  			  </a>
+  			  <a data-tab="Gifts" class="item">
+  			    Gifts
+  			  </a>
+  			  <a data-tab="Tents" class="item">
+  			    Tents
+  			  </a>
+  			  <a data-tab="Photography" class="item">
+  			    Photography
+  			  </a>
+  			  <a data-tab="Finish" class="item">
+  			    Finish
+  			  </a>
+  			</div>
+
+  			<div class="ui bottom attached tab segment" data-tab="Venue">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment" data-tab="Decor">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment active" data-tab="Extras">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment" data-tab="Food">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment" data-tab="Logistics">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment active" data-tab="Gifts">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment" data-tab="Tents">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment" data-tab="Photography">
+  			  
+  			</div>
+  			<div class="ui bottom attached tab segment active" data-tab="Finish">
+  			  
+  			</div>
+
+  		</div>
+	
+	</div>
+
+	<script type="text/javascript" src="../javascript/jQuery.js"></script>
+	<script type="text/javascript" src="../javascript/semantic.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		              $('.ui.accordion').accordion();
+		              $('.menu .item').tab();
+		           });
+
+	</script>
+
+</body>
+</html>

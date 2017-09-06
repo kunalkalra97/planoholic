@@ -1,0 +1,80 @@
+@font-face {
+	src: url('../fonts/Abel-Regular.ttf');
+	font-family: abel;
+}
+
+@font-face {
+	src: url('../fonts/beyond_the_mountains.ttf');
+	font-family: beyondthemountains;
+}
+
+body {
+
+	margin: 0;
+	padding:0;
+}
+
+.ui.button {
+	background-color: white;
+	border: lightgray solid 1px;
+}
+
+.container-fluid.eventAndAccount-details {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+img[src="../images/shopping-cart.png"] {
+	vertical-align: middle;
+	padding-left: 1em;
+}
+
+div[class="col-sm-4"] {
+	text-align: center;
+}
+
+div[class="col-sm-4"] h1, h3[id="username"] {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+div[class="col-sm-3"] {
+	margin-top: 5vh;
+	border-right: 1px solid lightgray;
+}
+
+.ui.button.custom {
+	width: 70%;
+	text-align: center;
+	color: rgb(141, 51, 50);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-left: 15%;
+
+}
+
+.ui.input {
+	width: 80%;
+	margin-top: 10vh;	
+	margin-bottom: 5vh;
+	margin-left: 10%;
+}
+
+input[type="range"], .ui.toggle.checkbox, .ui.vertical.accordion.menu {
+	width: 80%;
+	margin-left: 10%;
+}
+
+label[id="priceRange"] {
+	margin-left: 10%;
+}
+
+.ui.vertical.accordion.menu {
+	margin-bottom: 5vh;
+}
+
+
+
